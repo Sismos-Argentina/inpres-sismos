@@ -33,6 +33,8 @@ Todos los archivos se actualizan automáticamente todos los días a las 10:20 UT
 | [`sismos_recientes.json`](data/exports/sismos_recientes.json) | JSON | ~80 KB | Últimos 500 sismos registrados en formato JSON plano enriquecido. | [Ver Raw](https://raw.githubusercontent.com/LuisOVaras/inpres-sismos/main/data/exports/sismos_recientes.json) |
 | [`sismos.csv`](data/sismos.csv) | CSV | ~4.8 MB | Dataset maestro histórico completo (fuente de verdad del pipeline). | [Ver Raw](https://raw.githubusercontent.com/LuisOVaras/inpres-sismos/main/data/sismos.csv) |
 | [`sismos.db`](data/sismos.db) | SQLite | ~10 MB | Base de datos SQLite para consultas SQL directas u offline. | [Ver Raw](https://raw.githubusercontent.com/LuisOVaras/inpres-sismos/main/data/sismos.db) |
+| [`sismos_historicos.json`](data/exports/sismos_historicos.json) | JSON | ~100 KB | 80 terremotos historicos con texto limpio, fecha ISO, coordenadas numericas, Mercalli estructurada y fotos vinculadas por fecha. | — |
+| [`fotos_historicas.json`](data/exports/fotos_historicas.json) | JSON | ~100 KB | Manifiesto de galerias y derivados WebP; separa `argentina` de `internacional` y registra enlaces rotos. | — |
 
 ---
 
@@ -101,6 +103,36 @@ $$\text{ID} = \text{SHA256}(\text{fecha} \mid \text{hora} \mid \text{latitud} \m
             ▼
  [3] Publicación Automática (GitHub Actions -> main branch)
 ```
+
+## 🏛️ Sismos historicos y fotografias
+
+`data/sismos_historicos.csv` se conserva como fuente original. El exportador no lo
+reescribe: corrige Unicode y espacios en la salida, convierte fecha y coordenadas a
+tipos aptos para frontend, y expone la intensidad Mercalli como un objeto con grado
+romano, valor numerico, minimo, maximo, escala reportada y marca de estimacion.
+
+Las fotografias se archivan desde el indice publico del INPRES y se generan en dos
+variantes WebP: miniatura de hasta 480 px y visualizacion de hasta 1600 px. Cada foto
+mantiene sus URLs oficiales de procedencia. Las galerias de Chile 2010 y Japon 2011
+se marcan como `internacional` y no se asocian al catalogo argentino.
+La unica discrepancia de fecha observada se conserva: el catalogo fecha Sampacho el
+11/06/1934 y la galeria el 10/06/1934; la vinculacion queda marcada como
+`fecha_fuente_discrepante` con ambas fechas.
+
+```bash
+# Prueba acotada (dos galerias)
+python scripts/scrape_historical_photos.py --limit-galleries 2
+
+# Todas las galerias fechadas; reutiliza archivos ya descargados
+python scripts/scrape_historical_photos.py
+
+# Regenerar el catalogo y vincular las fotos argentinas por fecha
+python -m exporters.historical_exporter
+```
+
+Si un original ya no existe pero su miniatura sigue disponible, el manifiesto marca
+`original_disponible: false`. Si ambos enlaces fallan, la entrada queda documentada
+en `fotos_no_disponibles` sin interrumpir el resto de la descarga.
 
 ---
 

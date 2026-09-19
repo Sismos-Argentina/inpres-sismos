@@ -10,6 +10,7 @@ Exportadores incluidos:
 3. recent_exporter -> data/exports/sismos_recientes.json (Últimos 500 sismos)
 4. sample_exporter -> data/exports/sample.geojson (Muestra variada 100-300 registros)
 5. stats_exporter -> data/exports/stats.json (Estadísticas agregadas)
+6. historical_exporter -> data/exports/sismos_historicos.json (catalogo historico normalizado)
 
 Uso:
     python exporters/run_exports.py
@@ -27,6 +28,7 @@ from exporters.config import SISMOS_CSV
 from exporters import (
     csv_exporter,
     geojson_exporter,
+    historical_exporter,
     metadata_exporter,
     recent_exporter,
     sample_exporter,
@@ -91,6 +93,15 @@ def main():
     except Exception as e:
         print(f"  [ERROR] Stats fallo: {e}")
         errors.append("stats")
+
+    # 6. Catalogo historico y vinculacion opcional con fotos
+    print("\n[7] Exportando sismos historicos...")
+    try:
+        historical = historical_exporter.export()
+        print(f"    {historical['total_eventos']} eventos historicos exportados")
+    except Exception as e:
+        print(f"  [ERROR] Historicos fallo: {e}")
+        errors.append("historical")
 
     print("\n" + "=" * 60)
     if errors:

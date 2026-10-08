@@ -1,5 +1,5 @@
 {
-  "total_registros_analizados": 80781,
+  "total_registros_analizados": 80788,
   "sismos_por_anio": {
     "2011": 2240,
     "2012": 4889,
@@ -16,7 +16,7 @@
     "2023": 5794,
     "2024": 4573,
     "2025": 3949,
-    "2026": 3243
+    "2026": 3250
   },
   "sismos_por_mes": {
     "Enero": 7102,
@@ -28,33 +28,33 @@
     "Julio": 6568,
     "Agosto": 7264,
     "Septiembre": 7004,
-    "Octubre": 7239,
+    "Octubre": 7246,
     "Noviembre": 6984,
     "Diciembre": 7053
   },
   "distribucion_magnitud": {
     "menor_2_0": 4,
-    "entre_2_0_y_2_9": 49877,
-    "entre_3_0_y_3_9": 27584,
+    "entre_2_0_y_2_9": 49883,
+    "entre_3_0_y_3_9": 27585,
     "entre_4_0_y_4_9": 2482,
     "entre_5_0_y_5_9": 713,
     "mayor_o_igual_6_0": 121
   },
   "distribucion_profundidad": {
-    "superficial_0_33km": 15208,
+    "superficial_0_33km": 15214,
     "intermedio_33_70km": 1646,
-    "profundo_mas_70km": 63927
+    "profundo_mas_70km": 63928
   },
   "distribucion_provincia": {
-    "San Juan": 41854,
-    "Salta": 8947,
+    "San Juan": 41857,
+    "Salta": 8948,
     "Jujuy": 7770,
     "La Rioja": 6785,
-    "Mendoza": 5792,
-    "Catamarca": 4723,
+    "Mendoza": 5793,
+    "Catamarca": 4724,
     "Córdoba": 1518,
     "San Luis": 769,
-    "Neuquén": 579,
+    "Neuquén": 580,
     "Tucumán": 418,
     "Santiago del Estero": 337,
     "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 250,
@@ -69,7 +69,7 @@
     "Entre Ríos": 1
   },
   "distribucion_pais": {
-    "Argentina": 79881,
+    "Argentina": 79888,
     "Chile": 512,
     "Océano Pacífico": 278,
     "Desconocido": 37,
@@ -84,8 +84,8 @@
     "Filipinas": 1
   },
   "sismos_sentidos_vs_no": {
-    "sentidos": 3706,
-    "no_sentidos": 77075
+    "sentidos": 3707,
+    "no_sentidos": 77081
   },
   "eventos_destacados_magnitud": [
     {
@@ -128,19 +128,6 @@
       "sentido": "No"
     },
     {
-      "id": "180051f7ba43adeb",
-      "fecha": "25/12/2016",
-      "hora": "11:22:23",
-      "magnitud": 7.6,
-      "profundidad": 30.0,
-      "latitud": -43.517,
-      "longitud": -74.391,
-      "ubicacion_normalizada": "Chile",
-      "provincia": null,
-      "pais": "Chile",
-      "sentido": "Si"
-    },
-    {
       "id": "67a43d2fc2a103f5",
       "fecha": "16/09/2015",
       "hora": "20:18:43",
@@ -148,6 +135,19 @@
       "profundidad": 10.0,
       "latitud": -31.63,
       "longitud": -71.73,
+      "ubicacion_normalizada": "Chile",
+      "provincia": null,
+      "pais": "Chile",
+      "sentido": "Si"
+    },
+    {
+      "id": "180051f7ba43adeb",
+      "fecha": "25/12/2016",
+      "hora": "11:22:23",
+      "magnitud": 7.6,
+      "profundidad": 30.0,
+      "latitud": -43.517,
+      "longitud": -74.391,
       "ubicacion_normalizada": "Chile",
       "provincia": null,
       "pais": "Chile",
@@ -167,19 +167,6 @@
       "sentido": "No"
     },
     {
-      "id": "21d71f07bae9c1dd",
-      "fecha": "19/08/2016",
-      "hora": "04:32:23",
-      "magnitud": 7.4,
-      "profundidad": 10.0,
-      "latitud": -55.339,
-      "longitud": -31.939,
-      "ubicacion_normalizada": "Islas del Atlántico Sur",
-      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "pais": "Argentina",
-      "sentido": "No"
-    },
-    {
       "id": "9eeab58e23b4c175",
       "fecha": "02/05/2025",
       "hora": "09:58:00",
@@ -191,6 +178,19 @@
       "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "pais": "Argentina",
       "sentido": "Si"
+    },
+    {
+      "id": "21d71f07bae9c1dd",
+      "fecha": "19/08/2016",
+      "hora": "04:32:23",
+      "magnitud": 7.4,
+      "profundidad": 10.0,
+      "latitud": -55.339,
+      "longitud": -31.939,
+      "ubicacion_normalizada": "Islas del Atlántico Sur",
+      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "pais": "Argentina",
+      "sentido": "No"
     },
     {
       "id": "9452edffb0875338",
@@ -219,19 +219,6 @@
       "sentido": "Si"
     },
     {
-      "id": "dcb0a36fdf45901b",
-      "fecha": "23/01/2021",
-      "hora": "20:36:49",
-      "magnitud": 7.0,
-      "profundidad": 12.0,
-      "latitud": -61.79,
-      "longitud": -55.311,
-      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "pais": "Argentina",
-      "sentido": "No"
-    },
-    {
       "id": "ccc92a37836abb22",
       "fecha": "22/08/2021",
       "hora": "18:33:21",
@@ -239,6 +226,19 @@
       "profundidad": 10.0,
       "latitud": -60.447,
       "longitud": -25.09,
+      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "pais": "Argentina",
+      "sentido": "No"
+    },
+    {
+      "id": "dcb0a36fdf45901b",
+      "fecha": "23/01/2021",
+      "hora": "20:36:49",
+      "magnitud": 7.0,
+      "profundidad": 12.0,
+      "latitud": -61.79,
+      "longitud": -55.311,
       "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "pais": "Argentina",
@@ -258,26 +258,26 @@
       "sentido": "Si"
     },
     {
-      "id": "a924f346597d37e3",
-      "fecha": "18/07/2024",
-      "hora": "22:50:47",
+      "id": "652a9a654e683af2",
+      "fecha": "16/09/2015",
+      "hora": "20:16:08",
       "magnitud": 6.8,
-      "profundidad": 141.0,
-      "latitud": -23.074,
-      "longitud": -68.053,
-      "ubicacion_normalizada": "Chile",
+      "profundidad": 10.0,
+      "latitud": -31.78,
+      "longitud": -72.29,
+      "ubicacion_normalizada": "Océano Pacífico",
       "provincia": null,
-      "pais": "Chile",
+      "pais": "Océano Pacífico",
       "sentido": "Si"
     },
     {
-      "id": "9fa8ef0ac19e2a1a",
-      "fecha": "07/11/2015",
-      "hora": "04:31:41",
+      "id": "457a88ceee69264c",
+      "fecha": "25/03/2012",
+      "hora": "19:37:05",
       "magnitud": 6.8,
-      "profundidad": 56.0,
-      "latitud": -30.844,
-      "longitud": -71.727,
+      "profundidad": 48.0,
+      "latitud": -35.135,
+      "longitud": -72.335,
       "ubicacion_normalizada": "Chile",
       "provincia": null,
       "pais": "Chile",

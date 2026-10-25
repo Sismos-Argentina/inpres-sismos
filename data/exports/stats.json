@@ -1,5 +1,5 @@
 {
-  "total_registros_analizados": 80952,
+  "total_registros_analizados": 80957,
   "sismos_por_anio": {
     "2011": 2240,
     "2012": 4889,
@@ -16,7 +16,7 @@
     "2023": 5794,
     "2024": 4573,
     "2025": 3949,
-    "2026": 3414
+    "2026": 3419
   },
   "sismos_por_mes": {
     "Enero": 7102,
@@ -28,31 +28,31 @@
     "Julio": 6568,
     "Agosto": 7264,
     "Septiembre": 7004,
-    "Octubre": 7410,
+    "Octubre": 7415,
     "Noviembre": 6984,
     "Diciembre": 7053
   },
   "distribucion_magnitud": {
     "menor_2_0": 4,
-    "entre_2_0_y_2_9": 49973,
-    "entre_3_0_y_3_9": 27653,
+    "entre_2_0_y_2_9": 49976,
+    "entre_3_0_y_3_9": 27655,
     "entre_4_0_y_4_9": 2488,
     "entre_5_0_y_5_9": 713,
     "mayor_o_igual_6_0": 121
   },
   "distribucion_profundidad": {
-    "superficial_0_33km": 15255,
+    "superficial_0_33km": 15257,
     "intermedio_33_70km": 1646,
-    "profundo_mas_70km": 64051
+    "profundo_mas_70km": 64054
   },
   "distribucion_provincia": {
-    "San Juan": 41924,
+    "San Juan": 41926,
     "Salta": 8980,
-    "Jujuy": 7782,
+    "Jujuy": 7784,
     "La Rioja": 6795,
     "Mendoza": 5798,
     "Catamarca": 4748,
-    "Córdoba": 1520,
+    "Córdoba": 1521,
     "San Luis": 770,
     "Neuquén": 587,
     "Tucumán": 418,
@@ -69,7 +69,7 @@
     "Entre Ríos": 1
   },
   "distribucion_pais": {
-    "Argentina": 80049,
+    "Argentina": 80054,
     "Chile": 513,
     "Océano Pacífico": 280,
     "Desconocido": 37,
@@ -84,8 +84,8 @@
     "Filipinas": 1
   },
   "sismos_sentidos_vs_no": {
-    "sentidos": 3723,
-    "no_sentidos": 77229
+    "sentidos": 3725,
+    "no_sentidos": 77232
   },
   "eventos_destacados_magnitud": [
     {
@@ -167,19 +167,6 @@
       "sentido": "No"
     },
     {
-      "id": "9eeab58e23b4c175",
-      "fecha": "02/05/2025",
-      "hora": "09:58:00",
-      "magnitud": 7.4,
-      "profundidad": 10.0,
-      "latitud": -56.86,
-      "longitud": -68.768,
-      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "pais": "Argentina",
-      "sentido": "Si"
-    },
-    {
       "id": "21d71f07bae9c1dd",
       "fecha": "19/08/2016",
       "hora": "04:32:23",
@@ -191,6 +178,19 @@
       "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "pais": "Argentina",
       "sentido": "No"
+    },
+    {
+      "id": "9eeab58e23b4c175",
+      "fecha": "02/05/2025",
+      "hora": "09:58:00",
+      "magnitud": 7.4,
+      "profundidad": 10.0,
+      "latitud": -56.86,
+      "longitud": -68.768,
+      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "pais": "Argentina",
+      "sentido": "Si"
     },
     {
       "id": "9452edffb0875338",
@@ -219,19 +219,6 @@
       "sentido": "Si"
     },
     {
-      "id": "ccc92a37836abb22",
-      "fecha": "22/08/2021",
-      "hora": "18:33:21",
-      "magnitud": 7.0,
-      "profundidad": 10.0,
-      "latitud": -60.447,
-      "longitud": -25.09,
-      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "pais": "Argentina",
-      "sentido": "No"
-    },
-    {
       "id": "dcb0a36fdf45901b",
       "fecha": "23/01/2021",
       "hora": "20:36:49",
@@ -239,6 +226,19 @@
       "profundidad": 12.0,
       "latitud": -61.79,
       "longitud": -55.311,
+      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "pais": "Argentina",
+      "sentido": "No"
+    },
+    {
+      "id": "ccc92a37836abb22",
+      "fecha": "22/08/2021",
+      "hora": "18:33:21",
+      "magnitud": 7.0,
+      "profundidad": 10.0,
+      "latitud": -60.447,
+      "longitud": -25.09,
       "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "pais": "Argentina",
@@ -258,17 +258,17 @@
       "sentido": "Si"
     },
     {
-      "id": "f2793452bef11c33",
-      "fecha": "31/10/2023",
-      "hora": "09:33:42",
+      "id": "45ebf044f6c28f25",
+      "fecha": "02/04/2018",
+      "hora": "10:40:34",
       "magnitud": 6.8,
-      "profundidad": 29.0,
-      "latitud": -28.726,
-      "longitud": -71.568,
-      "ubicacion_normalizada": "Chile",
+      "profundidad": 570.0,
+      "latitud": -20.679,
+      "longitud": -63.418,
+      "ubicacion_normalizada": "Bolivia",
       "provincia": null,
-      "pais": "Chile",
-      "sentido": "Si"
+      "pais": "Bolivia",
+      "sentido": "No"
     },
     {
       "id": "457a88ceee69264c",

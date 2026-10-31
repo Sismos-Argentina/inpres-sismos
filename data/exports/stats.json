@@ -1,5 +1,5 @@
 {
-  "total_registros_analizados": 81017,
+  "total_registros_analizados": 81024,
   "sismos_por_anio": {
     "2011": 2240,
     "2012": 4889,
@@ -16,7 +16,7 @@
     "2023": 5794,
     "2024": 4573,
     "2025": 3949,
-    "2026": 3479
+    "2026": 3486
   },
   "sismos_por_mes": {
     "Enero": 7102,
@@ -28,30 +28,30 @@
     "Julio": 6568,
     "Agosto": 7264,
     "Septiembre": 7004,
-    "Octubre": 7475,
+    "Octubre": 7482,
     "Noviembre": 6984,
     "Diciembre": 7053
   },
   "distribucion_magnitud": {
     "menor_2_0": 4,
-    "entre_2_0_y_2_9": 50009,
-    "entre_3_0_y_3_9": 27678,
+    "entre_2_0_y_2_9": 50014,
+    "entre_3_0_y_3_9": 27680,
     "entre_4_0_y_4_9": 2492,
     "entre_5_0_y_5_9": 713,
     "mayor_o_igual_6_0": 121
   },
   "distribucion_profundidad": {
-    "superficial_0_33km": 15271,
+    "superficial_0_33km": 15274,
     "intermedio_33_70km": 1647,
-    "profundo_mas_70km": 64099
+    "profundo_mas_70km": 64103
   },
   "distribucion_provincia": {
-    "San Juan": 41953,
-    "Salta": 8992,
+    "San Juan": 41956,
+    "Salta": 8993,
     "Jujuy": 7788,
     "La Rioja": 6799,
-    "Mendoza": 5801,
-    "Catamarca": 4752,
+    "Mendoza": 5803,
+    "Catamarca": 4753,
     "Córdoba": 1524,
     "San Luis": 770,
     "Neuquén": 590,
@@ -69,7 +69,7 @@
     "Entre Ríos": 1
   },
   "distribucion_pais": {
-    "Argentina": 80114,
+    "Argentina": 80121,
     "Chile": 513,
     "Océano Pacífico": 280,
     "Desconocido": 37,
@@ -84,8 +84,8 @@
     "Filipinas": 1
   },
   "sismos_sentidos_vs_no": {
-    "sentidos": 3731,
-    "no_sentidos": 77286
+    "sentidos": 3732,
+    "no_sentidos": 77292
   },
   "eventos_destacados_magnitud": [
     {
@@ -219,19 +219,6 @@
       "sentido": "No"
     },
     {
-      "id": "dcb0a36fdf45901b",
-      "fecha": "23/01/2021",
-      "hora": "20:36:49",
-      "magnitud": 7.0,
-      "profundidad": 12.0,
-      "latitud": -61.79,
-      "longitud": -55.311,
-      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "pais": "Argentina",
-      "sentido": "No"
-    },
-    {
       "id": "ccc92a37836abb22",
       "fecha": "22/08/2021",
       "hora": "18:33:21",
@@ -239,6 +226,19 @@
       "profundidad": 10.0,
       "latitud": -60.447,
       "longitud": -25.09,
+      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "pais": "Argentina",
+      "sentido": "No"
+    },
+    {
+      "id": "dcb0a36fdf45901b",
+      "fecha": "23/01/2021",
+      "hora": "20:36:49",
+      "magnitud": 7.0,
+      "profundidad": 12.0,
+      "latitud": -61.79,
+      "longitud": -55.311,
       "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "pais": "Argentina",
@@ -258,29 +258,29 @@
       "sentido": "Si"
     },
     {
-      "id": "649edfbdc1bd9ea8",
-      "fecha": "01/08/2019",
-      "hora": "15:27:59",
+      "id": "652a9a654e683af2",
+      "fecha": "16/09/2015",
+      "hora": "20:16:08",
       "magnitud": 6.8,
       "profundidad": 10.0,
-      "latitud": -34.246,
-      "longitud": -72.5,
+      "latitud": -31.78,
+      "longitud": -72.29,
       "ubicacion_normalizada": "Océano Pacífico",
       "provincia": null,
       "pais": "Océano Pacífico",
       "sentido": "Si"
     },
     {
-      "id": "457a88ceee69264c",
-      "fecha": "25/03/2012",
-      "hora": "19:37:05",
+      "id": "b620eaa554778122",
+      "fecha": "29/09/2019",
+      "hora": "12:57:51",
       "magnitud": 6.8,
-      "profundidad": 48.0,
-      "latitud": -35.135,
-      "longitud": -72.335,
-      "ubicacion_normalizada": "Chile",
+      "profundidad": 22.0,
+      "latitud": -35.433,
+      "longitud": -73.265,
+      "ubicacion_normalizada": "Océano Pacífico",
       "provincia": null,
-      "pais": "Chile",
+      "pais": "Océano Pacífico",
       "sentido": "Si"
     }
   ]

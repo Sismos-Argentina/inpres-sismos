@@ -1,5 +1,5 @@
 {
-  "total_registros_analizados": 81024,
+  "total_registros_analizados": 81028,
   "sismos_por_anio": {
     "2011": 2240,
     "2012": 4889,
@@ -16,7 +16,7 @@
     "2023": 5794,
     "2024": 4573,
     "2025": 3949,
-    "2026": 3486
+    "2026": 3490
   },
   "sismos_por_mes": {
     "Enero": 7102,
@@ -28,27 +28,27 @@
     "Julio": 6568,
     "Agosto": 7264,
     "Septiembre": 7004,
-    "Octubre": 7482,
-    "Noviembre": 6984,
+    "Octubre": 7483,
+    "Noviembre": 6987,
     "Diciembre": 7053
   },
   "distribucion_magnitud": {
     "menor_2_0": 4,
-    "entre_2_0_y_2_9": 50014,
-    "entre_3_0_y_3_9": 27680,
-    "entre_4_0_y_4_9": 2492,
+    "entre_2_0_y_2_9": 50015,
+    "entre_3_0_y_3_9": 27682,
+    "entre_4_0_y_4_9": 2493,
     "entre_5_0_y_5_9": 713,
     "mayor_o_igual_6_0": 121
   },
   "distribucion_profundidad": {
-    "superficial_0_33km": 15274,
+    "superficial_0_33km": 15275,
     "intermedio_33_70km": 1647,
-    "profundo_mas_70km": 64103
+    "profundo_mas_70km": 64106
   },
   "distribucion_provincia": {
-    "San Juan": 41956,
-    "Salta": 8993,
-    "Jujuy": 7788,
+    "San Juan": 41957,
+    "Salta": 8994,
+    "Jujuy": 7790,
     "La Rioja": 6799,
     "Mendoza": 5803,
     "Catamarca": 4753,
@@ -69,7 +69,7 @@
     "Entre Ríos": 1
   },
   "distribucion_pais": {
-    "Argentina": 80121,
+    "Argentina": 80125,
     "Chile": 513,
     "Océano Pacífico": 280,
     "Desconocido": 37,
@@ -84,8 +84,8 @@
     "Filipinas": 1
   },
   "sismos_sentidos_vs_no": {
-    "sentidos": 3732,
-    "no_sentidos": 77292
+    "sentidos": 3733,
+    "no_sentidos": 77295
   },
   "eventos_destacados_magnitud": [
     {
@@ -167,19 +167,6 @@
       "sentido": "No"
     },
     {
-      "id": "9eeab58e23b4c175",
-      "fecha": "02/05/2025",
-      "hora": "09:58:00",
-      "magnitud": 7.4,
-      "profundidad": 10.0,
-      "latitud": -56.86,
-      "longitud": -68.768,
-      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
-      "pais": "Argentina",
-      "sentido": "Si"
-    },
-    {
       "id": "21d71f07bae9c1dd",
       "fecha": "19/08/2016",
       "hora": "04:32:23",
@@ -191,6 +178,19 @@
       "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "pais": "Argentina",
       "sentido": "No"
+    },
+    {
+      "id": "9eeab58e23b4c175",
+      "fecha": "02/05/2025",
+      "hora": "09:58:00",
+      "magnitud": 7.4,
+      "profundidad": 10.0,
+      "latitud": -56.86,
+      "longitud": -68.768,
+      "ubicacion_normalizada": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "pais": "Argentina",
+      "sentido": "Si"
     },
     {
       "id": "cd1d35d2463ac283",
@@ -258,29 +258,29 @@
       "sentido": "Si"
     },
     {
-      "id": "652a9a654e683af2",
-      "fecha": "16/09/2015",
-      "hora": "20:16:08",
+      "id": "a924f346597d37e3",
+      "fecha": "18/07/2024",
+      "hora": "22:50:47",
       "magnitud": 6.8,
-      "profundidad": 10.0,
-      "latitud": -31.78,
-      "longitud": -72.29,
-      "ubicacion_normalizada": "Océano Pacífico",
+      "profundidad": 141.0,
+      "latitud": -23.074,
+      "longitud": -68.053,
+      "ubicacion_normalizada": "Chile",
       "provincia": null,
-      "pais": "Océano Pacífico",
+      "pais": "Chile",
       "sentido": "Si"
     },
     {
-      "id": "b620eaa554778122",
-      "fecha": "29/09/2019",
-      "hora": "12:57:51",
+      "id": "457a88ceee69264c",
+      "fecha": "25/03/2012",
+      "hora": "19:37:05",
       "magnitud": 6.8,
-      "profundidad": 22.0,
-      "latitud": -35.433,
-      "longitud": -73.265,
-      "ubicacion_normalizada": "Océano Pacífico",
+      "profundidad": 48.0,
+      "latitud": -35.135,
+      "longitud": -72.335,
+      "ubicacion_normalizada": "Chile",
       "provincia": null,
-      "pais": "Océano Pacífico",
+      "pais": "Chile",
       "sentido": "Si"
     }
   ]

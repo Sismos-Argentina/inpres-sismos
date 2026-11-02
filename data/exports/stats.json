@@ -1,5 +1,5 @@
 {
-  "total_registros_analizados": 81028,
+  "total_registros_analizados": 81047,
   "sismos_por_anio": {
     "2011": 2240,
     "2012": 4889,
@@ -16,7 +16,7 @@
     "2023": 5794,
     "2024": 4573,
     "2025": 3949,
-    "2026": 3490
+    "2026": 3509
   },
   "sismos_por_mes": {
     "Enero": 7102,
@@ -28,36 +28,36 @@
     "Julio": 6568,
     "Agosto": 7264,
     "Septiembre": 7004,
-    "Octubre": 7483,
-    "Noviembre": 6987,
+    "Octubre": 7490,
+    "Noviembre": 6999,
     "Diciembre": 7053
   },
   "distribucion_magnitud": {
     "menor_2_0": 4,
-    "entre_2_0_y_2_9": 50015,
-    "entre_3_0_y_3_9": 27682,
-    "entre_4_0_y_4_9": 2493,
-    "entre_5_0_y_5_9": 713,
+    "entre_2_0_y_2_9": 50023,
+    "entre_3_0_y_3_9": 27691,
+    "entre_4_0_y_4_9": 2494,
+    "entre_5_0_y_5_9": 714,
     "mayor_o_igual_6_0": 121
   },
   "distribucion_profundidad": {
-    "superficial_0_33km": 15275,
+    "superficial_0_33km": 15279,
     "intermedio_33_70km": 1647,
-    "profundo_mas_70km": 64106
+    "profundo_mas_70km": 64121
   },
   "distribucion_provincia": {
-    "San Juan": 41957,
-    "Salta": 8994,
-    "Jujuy": 7790,
+    "San Juan": 41964,
+    "Salta": 8999,
+    "Jujuy": 7793,
     "La Rioja": 6799,
     "Mendoza": 5803,
-    "Catamarca": 4753,
-    "Córdoba": 1524,
+    "Catamarca": 4754,
+    "Córdoba": 1525,
     "San Luis": 770,
-    "Neuquén": 590,
+    "Neuquén": 591,
     "Tucumán": 418,
     "Santiago del Estero": 337,
-    "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 250,
+    "Tierra del Fuego, Antártida e Islas del Atlántico Sur": 251,
     "Santa Cruz": 111,
     "Buenos Aires": 8,
     "La Pampa": 7,
@@ -69,7 +69,7 @@
     "Entre Ríos": 1
   },
   "distribucion_pais": {
-    "Argentina": 80125,
+    "Argentina": 80144,
     "Chile": 513,
     "Océano Pacífico": 280,
     "Desconocido": 37,
@@ -84,8 +84,8 @@
     "Filipinas": 1
   },
   "sismos_sentidos_vs_no": {
-    "sentidos": 3733,
-    "no_sentidos": 77295
+    "sentidos": 3734,
+    "no_sentidos": 77313
   },
   "eventos_destacados_magnitud": [
     {
@@ -258,13 +258,13 @@
       "sentido": "Si"
     },
     {
-      "id": "a924f346597d37e3",
-      "fecha": "18/07/2024",
-      "hora": "22:50:47",
+      "id": "9fa8ef0ac19e2a1a",
+      "fecha": "07/11/2015",
+      "hora": "04:31:41",
       "magnitud": 6.8,
-      "profundidad": 141.0,
-      "latitud": -23.074,
-      "longitud": -68.053,
+      "profundidad": 56.0,
+      "latitud": -30.844,
+      "longitud": -71.727,
       "ubicacion_normalizada": "Chile",
       "provincia": null,
       "pais": "Chile",
